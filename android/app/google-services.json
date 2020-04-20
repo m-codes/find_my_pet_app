@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "275279260482",
+    "firebase_url": "https://find-my-pet-3ddcf.firebaseio.com",
+    "project_id": "find-my-pet-3ddcf",
+    "storage_bucket": "find-my-pet-3ddcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275279260482:android:2c17727b9d12cf7afbf6db",
+        "android_client_info": {
+          "package_name": "com.example.find_my_pet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275279260482-hsl369f72vet7uusmi3f7asq9insmv0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.find_my_pet",
+            "certificate_hash": "511f18f252648efb4c2d8152d9bb8f21c95a42f7"
+          }
+        },
+        {
+          "client_id": "275279260482-mc1cabkopdlk0koamaduidm786kohh2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNg7zZ6tFHHY9fmLYJBGS9KsMZ8DNGQOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275279260482-mc1cabkopdlk0koamaduidm786kohh2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

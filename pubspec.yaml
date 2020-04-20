@@ -1,0 +1,77 @@
+name: find_my_pet
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.0.0
+  intl: ^0.16.1
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  # For storing data to device
+  shared_preferences: ^0.5.6+3
+  # A composable, Future-based library for making HTTP requests.
+  http: ^0.12.0+4
+  # Firebase Core API, which enables connecting to multiple Firebase apps.
+  firebase_core: ^0.4.4+3
+  #Firebase required packages
+  firebase_analytics: ^5.0.11
+  firebase_auth: ^0.15.5+3
+  cloud_firestore: ^0.13.4+2
+  firebase_storage: ^3.1.5
+  firebase_messaging: ^6.0.13
+  #Image package
+  image_picker: ^0.6.4
+  #Google sign in package
+  google_sign_in: ^4.4.0
+  #Location packages
+  flutter_google_places: ^0.2.4
+  google_maps_flutter: ^0.5.25+3
+  google_maps_webservice: ^0.0.16
+  geoflutterfire: ^2.1.0
+  location: ^3.0.2
+  nice_button: ^0.1.7
+  # Provides access to the platform specific location services
+  geolocator: ^5.3.1
+  # Simple, fast generation of RFC4122 UUIDs.
+  uuid: ^2.0.4
+  #ability to load, save and manipulate images in a variety of different file formats
+  image: ^2.1.4
+  #animation library for Flutter
+  animator: ^1.0.0+5
+  # Finding commonly used locations on the filesystem
+  path_provider: ^1.6.5
+  # Convinient timestamps
+  timeago: ^2.0.26
+  # how images from the internet and keep them in the cache directory.
+  cached_network_image:
+  flutter_svg:
+  device_preview: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-bold.ttf
+          weight: 700
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+  assets:
+    - assets/images/google_signin_button.png
