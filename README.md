@@ -2,7 +2,9 @@
 Cross-platform mobile application using Googles Flutter Technology.
 
 ## Overview
-FindMyPet is a cross-platform mobile application built using Googles Flutter technology. It utilises the Dart programming language to help build expressive and flexible UI that gives full native performance on either mobile platform.
+FindMyPet is a cross-platform mobile application built using Googles Flutter technology. It utilises the Dart programming language to help build expressive and flexible UI that gives full native performance on either mobile platform. The aim of which is to give users the ability to post details of lost, spotted or found animals in their area.
+
+Push notifications are a very important aspect of this project as it will have the biggest impact on helping to return pets home quickly and safely. With push notifications, as soon as a user creates a post about their missing a pet, all users within a 10-kilometre radius will receive a push notification.
 
 The backend of this project was built using a multitude of Firebase tools:
 - The Firebase authentication service was used to create and authenticate credentials for users. 
@@ -25,3 +27,5 @@ There is be a range of features, such as push notifications if an animal is repo
 <img src="https://user-images.githubusercontent.com/57196168/81422863-7d5c5800-914b-11ea-84aa-4d40901a83ad.png" alt="App Image" height=600 width="280"> <img src="https://user-images.githubusercontent.com/57196168/81422871-80574880-914b-11ea-99d0-7a362615f672.png" alt="App Image" height=600 width="280"> 
 ### Search and Profile
 <img src="https://user-images.githubusercontent.com/57196168/81422944-9f55da80-914b-11ea-9140-6867243c8aee.png" alt="App Image" height=600 width="280"> <img src="https://user-images.githubusercontent.com/57196168/81422863-7d5c5800-914b-11ea-84aa-4d40901a83ad.png" alt="App Image" height=600 width="280">
+### Push Notification
+<img src="https://user-images.githubusercontent.com/57196168/81425559-b7c7f400-914f-11ea-9380-2028f659489d.png" alt="App Image" height=600 width="280"> 
